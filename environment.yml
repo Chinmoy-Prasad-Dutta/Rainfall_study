@@ -1,0 +1,31 @@
+name: data_analytics
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - numpy
+  - scipy
+  - matplotlib
+  - seaborn
+  - plotly
+  - jupyter
+  - jupyterlab
+  - ipykernel
+  - scikit-learn
+  - statsmodels
+  - openpyxl
+  - xlrd
+  - requests
+  - beautifulsoup4
+  - sqlite
+  - pip
+  - plotly
+  - pip:
+    - dash
+    - streamlit
+    - yfinance
+    - tweepy
+    - textblob
+    - wordcloud
